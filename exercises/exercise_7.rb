@@ -10,3 +10,7 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+@promt = gets.chomp.to_s
+
+Store.create(name: @promt)
